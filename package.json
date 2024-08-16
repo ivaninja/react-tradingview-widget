@@ -17,6 +17,7 @@
     "tradingview widget react"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "build": "webpack --config webpack.config.babel.js",
     "release": "webpack --p --config webpack.config.babel.js",
     "test": "jest",
